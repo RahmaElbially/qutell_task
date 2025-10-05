@@ -1,0 +1,30 @@
+@import "tailwindcss/theme";
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+@theme {
+  --color-primary: #634c9f;
+  --color-secondary: #6c757d;
+}
+
+.th-style {
+  @apply px-3 py-2 font-medium text-sm;
+}
+
+.td-style {
+  @apply px-3 py-8 text-sm;
+}
+
+[dir="rtl"] .group img {
+  margin: 0 0.75rem;
+}
+.arrow-flip {
+  transform: rotate(180deg);
+}
+.arrow-normal {
+  transform: rotate(0);
+}
