@@ -3,7 +3,7 @@ import cart from "../../assets/cart.svg";
 import search from "../../assets/search.svg";
 import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { CirclePlus, Globe, Menu, X } from "lucide-react";
+import { CirclePlus, Globe, Menu, X as _X } from "lucide-react";
 
 type NavbarProps = {
   isOpen: boolean;
